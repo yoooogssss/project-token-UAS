@@ -1,60 +1,15 @@
-# CodeIgniter 4 Framework
-
-## What is CodeIgniter?
-
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
-
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+POST Request_Token
+<img width="1905" height="865" alt="image" src="https://github.com/user-attachments/assets/3c2352b7-1758-4fb9-bca3-e939e7f8094e" />
+<img width="1919" height="993" alt="image" src="https://github.com/user-attachments/assets/7b81df5f-767f-4b7c-89ae-4272961fdf59" />
+GET Tampil Semua
+Copy Token dari Request_Token
+<img width="1916" height="998" alt="image" src="https://github.com/user-attachments/assets/46f0dd73-f6d4-4f21-b112-2bf831e1d83d" />
+POST Insert
+<img width="1915" height="1013" alt="image" src="https://github.com/user-attachments/assets/577bc0a6-60ef-4f8b-a243-5b91ad7ddd37" />
+<img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/cefeb9fc-cf23-4937-a90e-8be69b2ce726" />
+PUT Update
+<img width="1888" height="1003" alt="image" src="https://github.com/user-attachments/assets/8ae46627-7612-454f-bea4-82183e1b2527" />
+GET Verify
+<img width="1915" height="1012" alt="image" src="https://github.com/user-attachments/assets/a89ae516-9c58-4b72-8887-93e2ebec01e2" />
+DEL Delete
+<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/42144264-f83d-41f6-b49b-028327ef1ca9" />
